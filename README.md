@@ -33,7 +33,7 @@ Instead, herein is proposed ULID:
 ## Usage as ES modules
 
 ```js
-import { ulid } from "https://code4fukui.github.io/ulid/dist/index.esm.js";
+import { ulid } from "https://code4fukui.github.io/ulid/ulid.js";
 console.log(ulid());
 ```
 
