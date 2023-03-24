@@ -30,6 +30,13 @@ Instead, herein is proposed ULID:
 - No special characters (URL safe)
 - Monotonic sort order (correctly detects and handles the same millisecond)
 
+## Usage as ES modules
+
+```js
+import { ulid } from "https://code4fukui.github.io/ulid/dist/index.esm.js";
+console.log(ulid());
+```
+
 ## Install with a script tag
 
 ```html
